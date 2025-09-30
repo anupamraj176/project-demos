@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    color: #fff;
+    /* Centering is now handled by the .container class */
+    /* This makes the body a simple background container */
+}
+
+/* MOVED FLEX PROPERTIES HERE */
+.container {
+    height: 100vh; /* Takes full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+}
+
+.btns-container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.increment {
+    padding: 16px 40px;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: #1e1f26;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.increment:hover {
+    background: #00adb5;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 173, 181, 0.6);
+}
+
+.increment:active {
+    transform: scale(0.95);
+    box-shadow: 0 3px 8px rgba(0, 173, 181, 0.4);
+}
