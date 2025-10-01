@@ -1,0 +1,28 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.app-container button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.content h1 {
+  font-size: 4rem;
+  margin: -10px 0;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
