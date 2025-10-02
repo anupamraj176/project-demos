@@ -10,7 +10,7 @@ const Todo = () => {
 
     const newTodo = {
       text: input,
-      id: Date.now(), // unique & safer than Math.random
+      id: Date.now(), 
     };
 
     setTodos((prev) => [...prev, newTodo]);
