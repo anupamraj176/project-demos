@@ -1,0 +1,84 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  gap: 2rem; /* space between cards */
+  z-index: -2;
+}
+
+.card {
+  margin: 10px;
+  border: 1px solid #ededed;
+  border-radius: 12px;
+  padding: 1rem;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.card-img {
+  width: 100%;
+  max-width: 13rem;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.card-title {
+  margin-bottom: 0.6rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-reviews {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.rating-start {
+  color: #dbab55;
+  margin-right: 3px;
+}
+
+.total-reviews {
+  font-size: 0.9rem;
+  margin-left: 6px;
+  color: #555;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 600;
+  color: #222;
+}
+
+.price del {
+  font-size: 0.9rem;
+  color: #888;
+  margin-right: 6px;
+}
+
+.bag {
+  color: #535353;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.bag:hover {
+  color: #000;
+}
